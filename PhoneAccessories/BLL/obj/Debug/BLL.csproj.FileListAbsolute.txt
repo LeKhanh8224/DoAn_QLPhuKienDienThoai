@@ -9,3 +9,14 @@ D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\BLL\ob
 D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.dll
 D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\BLL.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\BLL.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\DAL.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\DTO.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\DAL.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\bin\Debug\DTO.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\DoAn_QLPhuKienDienThoai\PhoneAccessories\BLL\obj\Debug\BLL.pdb

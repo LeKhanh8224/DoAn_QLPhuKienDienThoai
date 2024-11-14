@@ -118,14 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dashboard_pic_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard_pic_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="entryForm_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entryForm_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif_dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gif_dashboard.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gif_login.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login_pic_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login_pic_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="personnel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\personnel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="phoneAccessories_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phoneAccessories_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +151,16 @@
   <data name="phoneAccessories_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phoneAccessories_pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pic_kho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_kho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profile_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile_icon_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statistical_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statistical_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2093541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2093541.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

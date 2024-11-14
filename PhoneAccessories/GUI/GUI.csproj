@@ -221,5 +221,32 @@
   <ItemGroup>
     <None Include="Resources\login_pic_64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_kho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personnel_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entryForm_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistical_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2093541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_dashboard.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

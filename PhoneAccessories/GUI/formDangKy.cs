@@ -29,5 +29,19 @@ namespace GUI
             frmdn.ShowDialog();
             this.Show();
         }
+
+        private void pnl_thongtin_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void formDangKy_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult r = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (r == DialogResult.No)
+                e.Cancel = true;
+            else
+                Application.ExitThread();
+        }
     }
 }

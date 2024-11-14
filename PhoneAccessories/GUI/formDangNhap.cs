@@ -107,5 +107,10 @@ namespace GUI
             formDangKy formDangKy = new formDangKy();
             formDangKy.ShowDialog();
         }
+
+        private void txtTenDN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

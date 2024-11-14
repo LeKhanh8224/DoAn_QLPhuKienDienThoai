@@ -64,27 +64,29 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel1.Controls.Add(this.pnl_dangxuat);
             this.panel1.Controls.Add(this.lbl_title);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(774, 63);
+            this.panel1.Size = new System.Drawing.Size(1106, 63);
             this.panel1.TabIndex = 0;
             // 
             // pnl_dangxuat
             // 
             this.pnl_dangxuat.Controls.Add(this.btn_dangxuat);
             this.pnl_dangxuat.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnl_dangxuat.Location = new System.Drawing.Point(574, 0);
+            this.pnl_dangxuat.Location = new System.Drawing.Point(906, 0);
             this.pnl_dangxuat.Name = "pnl_dangxuat";
             this.pnl_dangxuat.Size = new System.Drawing.Size(200, 63);
             this.pnl_dangxuat.TabIndex = 1;
             // 
             // btn_dangxuat
             // 
-            this.btn_dangxuat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dangxuat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_dangxuat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dangxuat.ForeColor = System.Drawing.SystemColors.Info;
             this.btn_dangxuat.Location = new System.Drawing.Point(46, 12);
             this.btn_dangxuat.Name = "btn_dangxuat";
             this.btn_dangxuat.Size = new System.Drawing.Size(118, 37);
@@ -97,6 +99,7 @@
             // 
             this.lbl_title.AutoSize = true;
             this.lbl_title.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_title.ForeColor = System.Drawing.SystemColors.GrayText;
             this.lbl_title.Location = new System.Drawing.Point(59, 12);
             this.lbl_title.Name = "lbl_title";
             this.lbl_title.Size = new System.Drawing.Size(110, 37);
@@ -109,9 +112,9 @@
             this.panel2.Controls.Add(this.pnl_button);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(774, 0);
+            this.panel2.Location = new System.Drawing.Point(1106, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(201, 642);
+            this.panel2.Size = new System.Drawing.Size(201, 706);
             this.panel2.TabIndex = 1;
             // 
             // pnl_button
@@ -120,9 +123,9 @@
             this.pnl_button.Controls.Add(this.pnl_nhanVien);
             this.pnl_button.Controls.Add(this.lbl_nguoidung);
             this.pnl_button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_button.Location = new System.Drawing.Point(0, 127);
+            this.pnl_button.Location = new System.Drawing.Point(0, 184);
             this.pnl_button.Name = "pnl_button";
-            this.pnl_button.Size = new System.Drawing.Size(201, 515);
+            this.pnl_button.Size = new System.Drawing.Size(201, 522);
             this.pnl_button.TabIndex = 3;
             // 
             // pnl_khachHang
@@ -191,7 +194,7 @@
             this.lbl_activeNV.Name = "lbl_activeNV";
             this.lbl_activeNV.Size = new System.Drawing.Size(201, 55);
             this.lbl_activeNV.TabIndex = 1;
-            this.lbl_activeNV.Text = "Nhân viên hoạt động";
+            this.lbl_activeNV.Text = "Nhân Viên Hoạt Động";
             this.lbl_activeNV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_nguoidung
@@ -200,6 +203,7 @@
             this.lbl_nguoidung.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbl_nguoidung.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbl_nguoidung.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nguoidung.ForeColor = System.Drawing.Color.Crimson;
             this.lbl_nguoidung.Location = new System.Drawing.Point(0, 0);
             this.lbl_nguoidung.Name = "lbl_nguoidung";
             this.lbl_nguoidung.Size = new System.Drawing.Size(201, 120);
@@ -210,10 +214,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::GUI.Properties.Resources.phoneAccessories_pic;
+            this.pictureBox1.Image = global::GUI.Properties.Resources.gif_dashboard;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 127);
+            this.pictureBox1.Size = new System.Drawing.Size(201, 184);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -224,12 +228,12 @@
             this.pnl_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_main.Location = new System.Drawing.Point(0, 0);
             this.pnl_main.Name = "pnl_main";
-            this.pnl_main.Size = new System.Drawing.Size(774, 642);
+            this.pnl_main.Size = new System.Drawing.Size(1106, 706);
             this.pnl_main.TabIndex = 2;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel3.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel3.Controls.Add(this.btn_ThongKe);
             this.panel3.Controls.Add(this.btn_phieuNhap);
             this.panel3.Controls.Add(this.btn_hoaDon);
@@ -240,7 +244,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 63);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(774, 64);
+            this.panel3.Size = new System.Drawing.Size(1106, 64);
             this.panel3.TabIndex = 3;
             // 
             // btn_ThongKe
@@ -249,9 +253,10 @@
             this.btn_ThongKe.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_ThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ThongKe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ThongKe.ForeColor = System.Drawing.Color.Black;
+            this.btn_ThongKe.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_ThongKe.Image = global::GUI.Properties.Resources.statistical_icon;
             this.btn_ThongKe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_ThongKe.Location = new System.Drawing.Point(630, 0);
+            this.btn_ThongKe.Location = new System.Drawing.Point(636, 0);
             this.btn_ThongKe.Name = "btn_ThongKe";
             this.btn_ThongKe.Size = new System.Drawing.Size(103, 64);
             this.btn_ThongKe.TabIndex = 2;
@@ -266,9 +271,10 @@
             this.btn_phieuNhap.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_phieuNhap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_phieuNhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_phieuNhap.ForeColor = System.Drawing.Color.Black;
+            this.btn_phieuNhap.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_phieuNhap.Image = global::GUI.Properties.Resources.entryForm_icon;
             this.btn_phieuNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_phieuNhap.Location = new System.Drawing.Point(522, 0);
+            this.btn_phieuNhap.Location = new System.Drawing.Point(528, 0);
             this.btn_phieuNhap.Name = "btn_phieuNhap";
             this.btn_phieuNhap.Size = new System.Drawing.Size(108, 64);
             this.btn_phieuNhap.TabIndex = 6;
@@ -283,9 +289,10 @@
             this.btn_hoaDon.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_hoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_hoaDon.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_hoaDon.ForeColor = System.Drawing.Color.Black;
+            this.btn_hoaDon.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_hoaDon.Image = global::GUI.Properties.Resources.bill_icon;
             this.btn_hoaDon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_hoaDon.Location = new System.Drawing.Point(414, 0);
+            this.btn_hoaDon.Location = new System.Drawing.Point(420, 0);
             this.btn_hoaDon.Name = "btn_hoaDon";
             this.btn_hoaDon.Size = new System.Drawing.Size(108, 64);
             this.btn_hoaDon.TabIndex = 5;
@@ -297,13 +304,14 @@
             // btn_nhanSu
             // 
             this.btn_nhanSu.AutoSize = true;
-            this.btn_nhanSu.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn_nhanSu.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btn_nhanSu.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_nhanSu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_nhanSu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_nhanSu.ForeColor = System.Drawing.Color.Black;
+            this.btn_nhanSu.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_nhanSu.Image = ((System.Drawing.Image)(resources.GetObject("btn_nhanSu.Image")));
             this.btn_nhanSu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_nhanSu.Location = new System.Drawing.Point(311, 0);
+            this.btn_nhanSu.Location = new System.Drawing.Point(317, 0);
             this.btn_nhanSu.Name = "btn_nhanSu";
             this.btn_nhanSu.Size = new System.Drawing.Size(103, 64);
             this.btn_nhanSu.TabIndex = 1;
@@ -318,11 +326,13 @@
             this.btn_khoHang.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_khoHang.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_khoHang.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_khoHang.ForeColor = System.Drawing.Color.Black;
+            this.btn_khoHang.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_khoHang.Image = global::GUI.Properties.Resources.pic_kho;
             this.btn_khoHang.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_khoHang.Location = new System.Drawing.Point(208, 0);
             this.btn_khoHang.Name = "btn_khoHang";
-            this.btn_khoHang.Size = new System.Drawing.Size(103, 64);
+            this.btn_khoHang.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_khoHang.Size = new System.Drawing.Size(109, 64);
             this.btn_khoHang.TabIndex = 4;
             this.btn_khoHang.Text = "Kho Hàng";
             this.btn_khoHang.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -335,7 +345,7 @@
             this.btn_profile.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_profile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_profile.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_profile.ForeColor = System.Drawing.Color.Black;
+            this.btn_profile.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btn_profile.Image = global::GUI.Properties.Resources.profile_icon_32;
             this.btn_profile.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_profile.Location = new System.Drawing.Point(103, 0);
@@ -353,7 +363,7 @@
             this.btn_trangChu.Dock = System.Windows.Forms.DockStyle.Left;
             this.btn_trangChu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_trangChu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_trangChu.ForeColor = System.Drawing.Color.Black;
+            this.btn_trangChu.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btn_trangChu.Image = global::GUI.Properties.Resources.dashboard_pic_32;
             this.btn_trangChu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btn_trangChu.Location = new System.Drawing.Point(0, 0);
@@ -370,7 +380,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(975, 642);
+            this.ClientSize = new System.Drawing.Size(1307, 706);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnl_main);
