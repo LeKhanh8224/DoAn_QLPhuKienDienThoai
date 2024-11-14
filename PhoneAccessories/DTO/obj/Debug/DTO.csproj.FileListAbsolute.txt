@@ -1,0 +1,6 @@
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\bin\Debug\DTO.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\bin\Debug\DTO.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\obj\Debug\DTO.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DTO\obj\Debug\DTO.pdb

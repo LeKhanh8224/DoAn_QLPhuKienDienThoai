@@ -1,0 +1,9 @@
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\bin\Debug\DAL.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\bin\Debug\DAL.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\bin\Debug\DTO.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\bin\Debug\DTO.pdb
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\obj\Debug\DAL.dll
+D:\ToiHocHanh\HK5\Lập Trình .NET\QL_LinhKienDienThoai\PhoneAccessories\DAL\obj\Debug\DAL.pdb
