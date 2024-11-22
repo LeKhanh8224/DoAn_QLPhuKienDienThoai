@@ -171,6 +171,30 @@ ADD CONSTRAINT FK_NV_TENDN FOREIGN KEY (TENDN) REFERENCES TAIKHOAN(TENDN);
 GO
 
 -- dữ liệu cho các bảng -------------------------------------------------------------------------------------------------
+INSERT INTO VAITRO (MAVT, TENVT) VALUES
+('admin', N'admin'),
+('VT000', N'Khách hàng'),
+('VT001', N'Nhân viên quản lí nhân sự'),
+('VT002', N'Nhân viên quản lí kho hàng'),
+('VT003', N'Nhân viên kế toán'),
+('VT004', N'Nhân viên báo cáo tài chính');
+GO
+
+SELECT * FROM VAITRO;
+GO
+
+INSERT INTO TAIKHOAN (TENDN, MKHAU, MAVT) VALUES
+('admin', 'admin', 'admin'),
+('kh001', '123', 'VT000'),
+('nv001', '123', 'VT001'),
+('nv002', '123', 'VT002'),
+('nv003', '123', 'VT003'),
+('nv004', '123', 'VT004');
+GO
+
+SELECT * FROM TAIKHOAN;
+GO
+
 INSERT INTO LOAI (MALOAI, TENLOAI) VALUES
 ('L001', N'Ốp lưng'),
 ('L002', N'Cáp sạc'),
@@ -326,29 +350,6 @@ GO
 SELECT * FROM CHITIETPN;
 GO
 
-INSERT INTO VAITRO (MAVT, TENVT) VALUES
-('admin', N'admin'),
-('VT000', N'Khách hàng'),
-('VT001', N'Nhân viên quản lí nhân sự'),
-('VT002', N'Nhân viên quản lí kho hàng'),
-('VT003', N'Nhân viên kế toán'),
-('VT004', N'Nhân viên báo cáo tài chính');
-GO
-
-SELECT * FROM VAITRO;
-GO
-
-INSERT INTO TAIKHOAN (TENDN, MKHAU, MAVT) VALUES
-('admin', 'admin', 'admin'),
-('kh001', '123', 'VT000'),
-('nv001', '123', 'VT001'),
-('nv002', '123', 'VT002'),
-('nv003', '123', 'VT003'),
-('nv004', '123', 'VT004');
-GO
-
-SELECT * FROM TAIKHOAN;
-GO
 
 ------------------- THỦ TỤC -----------------------------------------------------------
 

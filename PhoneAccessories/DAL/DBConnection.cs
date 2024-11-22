@@ -9,7 +9,7 @@ namespace DAL
 {
     public class DBConnection
     {
-        public static string connection = "Data Source=DESKTOP-9GVK8OD\\SQLEXPRESS;Initial Catalog=QL_PKDIENTHOAI;User ID=sa;Password=123";
+        public static string connection = "Data Source=DESKTOP-LRSJBGM\\SQLEXPRESS;Initial Catalog=QL_PKDIENTHOAI;";
         public SqlConnection conn = new SqlConnection(connection);
     }
 }
