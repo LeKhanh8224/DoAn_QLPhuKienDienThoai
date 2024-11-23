@@ -27,23 +27,7 @@ namespace GUI
                 add_uc(uc);
                 lbl_title.Text = "Trang Chủ";
                 lbl_nguoidung.Text = "Administrator";
-                btn_dangxuat.Text = "Đăng Xuất";
-            }
-            else if (vaiTro.Trim().Equals("VT000")) //Nếu là khách hàng
-            {
-                UC_TrangChu uc = new UC_TrangChu();
-                add_uc(uc);
-                lbl_title.Text = "Trang Chủ";
-                BLL_KhachHang khX = new BLL_KhachHang();
-                lbl_nguoidung.Text = "Khách H\n" + khX.layTenKH(tenDN);
-                btn_dangxuat.Text = "Đăng Xuất";
-                btn_khoHang.Visible = false;
-                btn_nhanSu.Visible = false;
-                btn_hoaDon.Visible = false;
-                btn_phieuNhap.Visible = false;
-                btn_ThongKe.Visible = false;
-
-            }    
+            } 
             else if (vaiTro.Trim().Equals("VT001")) //Nếu là nhân viên quản lí nhân sự
             {
                 UC_TrangChu uc = new UC_TrangChu();
@@ -51,7 +35,6 @@ namespace GUI
                 lbl_title.Text = "Trang Chủ";
                 BLL_NhanVien nvX = new BLL_NhanVien();
                 lbl_nguoidung.Text = "Nhân Viên\n" + nvX.layTenNV(tenDN);
-                btn_dangxuat.Text = "Đăng Xuất";
                 //Hiện Nhân sự 
                 btn_nhanSu.Location = btn_khoHang.Location;
                 btn_khoHang.Visible = false;
@@ -67,7 +50,6 @@ namespace GUI
                 lbl_title.Text = "Trang Chủ";
                 BLL_NhanVien nvX = new BLL_NhanVien();
                 lbl_nguoidung.Text = "Nhân Viên\n" + nvX.layTenNV(tenDN);
-                btn_dangxuat.Text = "Đăng Xuất";
                 //Hiện Kho hàng
                 btn_nhanSu.Visible = false;
                 btn_hoaDon.Visible = false;
@@ -81,7 +63,6 @@ namespace GUI
                 lbl_title.Text = "Trang Chủ";
                 BLL_NhanVien nvX = new BLL_NhanVien();
                 lbl_nguoidung.Text = "Nhân Viên\n" + nvX.layTenNV(tenDN);
-                btn_dangxuat.Text = "Đăng Xuất";
                 //Hiện Hóa đơn và Phiếu nhập
                 btn_hoaDon.Location = btn_khoHang.Location;
                 btn_phieuNhap.Location = btn_nhanSu.Location;
@@ -96,7 +77,6 @@ namespace GUI
                 lbl_title.Text = "Trang Chủ";
                 BLL_NhanVien nvX = new BLL_NhanVien();
                 lbl_nguoidung.Text = "Nhân Viên\n" + nvX.layTenNV(tenDN);
-                btn_dangxuat.Text = "Đăng Xuất";
                 //Hiện Thống kê
                 btn_ThongKe.Location = btn_khoHang.Location;
                 btn_khoHang.Visible = false;

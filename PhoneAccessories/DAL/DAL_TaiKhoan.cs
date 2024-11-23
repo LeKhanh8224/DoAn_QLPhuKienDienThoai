@@ -14,38 +14,47 @@ namespace DAL
         public DTO_TaiKhoan getTaiKhoan(string TENDN, string MKHAU)
         {
             DTO_TaiKhoan taiKhoan = null;
-
-            if (ConnectionState.Closed == conn.State)
-            { 
-                conn.Open();
-            }
-
-            string sql = "SELECT * FROM TAIKHOAN " +
-                        "WHERE TENDN = @TENDN AND MKHAU = @MKHAU";
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@TENDN", TENDN);
-            cmd.Parameters.AddWithValue("@MKHAU", MKHAU);
-
             try
             {
-                SqlDataReader read = cmd.ExecuteReader();
-                if (read.Read())
+                if (conn.State == ConnectionState.Closed)
                 {
-                    taiKhoan = new DTO_TaiKhoan()
-                    {
-                        TENDN = read["TENDN"].ToString(),
-                        MKHAU = read["MKHAU"].ToString(),
-                        MAVT = read["MAVT"].ToString()
-                    };
+                    conn.Open();
                 }
+
+                string sql = "SELECT TENDN, MKHAU, MAVT FROM TAIKHOAN WHERE TENDN = @TENDN AND MKHAU = @MKHAU";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@TENDN", TENDN);
+                    cmd.Parameters.AddWithValue("@MKHAU", MKHAU);
+
+                    using (SqlDataReader read = cmd.ExecuteReader())
+                    {
+                        if (read.Read())
+                        {
+                            taiKhoan = new DTO_TaiKhoan()
+                            {
+                                TENDN = read["TENDN"].ToString(),
+                                MKHAU = read["MKHAU"].ToString(),
+                                MAVT = read["MAVT"].ToString()
+                            };
+                        }
+                    }
+                }
+            }
+            catch (SqlException sqlEx)
+            {
+                throw new Exception("Lỗi cơ sở dữ liệu: " + sqlEx.Message);
             }
             catch (Exception ex)
             {
-                throw new Exception("Lỗi: " + ex.Message);
+                throw new Exception("Lỗi khác: " + ex.Message);
             }
             finally
             {
-                conn.Close();
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
             }
 
             return taiKhoan;

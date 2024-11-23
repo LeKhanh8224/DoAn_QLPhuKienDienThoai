@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|d:\\hk5\\l\u1EADp tr\u00ECnh .net\\ql_linhkiendienthoai\\phoneaccessories\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|d:\\hk5\\l\u1EADp tr\u00ECnh .net\\ql_linhkiendienthoai\\phoneaccessories\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD957CF0-4F5A-4E4D-82F2-A77A2D0AF26C}|DAL\\DAL.csproj|d:\\hk5\\l\u1EADp tr\u00ECnh .net\\ql_linhkiendienthoai\\phoneaccessories\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD957CF0-4F5A-4E4D-82F2-A77A2D0AF26C}|DAL\\DAL.csproj|solutionrelative:dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|d:\\hk5\\l\u1EADp tr\u00ECnh .net\\ql_linhkiendienthoai\\phoneaccessories\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|d:\\hk5\\l\u1EADp tr\u00ECnh .net\\ql_linhkiendienthoai\\phoneaccessories\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4405DA2F-B26E-4577-BE35-5CC029610134}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "formDangNhap.cs",
-              "DocumentMoniker": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formDangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\formDangNhap.cs",
-              "ToolTip": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formDangNhap.cs",
-              "RelativeToolTip": "GUI\\formDangNhap.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:21:37.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "formDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formDangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\formDangNhap.cs",
-              "ToolTip": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formDangNhap.cs [Design]",
-              "RelativeToolTip": "GUI\\formDangNhap.cs [Design]",
+              "Title": "formMain.cs",
+              "DocumentMoniker": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formMain.cs",
+              "RelativeDocumentMoniker": "GUI\\formMain.cs",
+              "ToolTip": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formMain.cs",
+              "RelativeToolTip": "GUI\\formMain.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwC0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:21:30.013Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\DAL\\DBConnection.cs",
-              "RelativeDocumentMoniker": "DAL\\DBConnection.cs",
-              "ToolTip": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\DAL\\DBConnection.cs",
-              "RelativeToolTip": "DAL\\DBConnection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:19:48.471Z",
+              "WhenOpened": "2024-11-23T04:04:32.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "formMain.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formMain.cs",
               "RelativeDocumentMoniker": "GUI\\formMain.cs",
               "ToolTip": "D:\\HK5\\L\u1EADp Tr\u00ECnh .NET\\QL_LinhKienDienThoai\\PhoneAccessories\\GUI\\formMain.cs [Design]",
               "RelativeToolTip": "GUI\\formMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:08:31.486Z",
+              "WhenOpened": "2024-11-23T04:01:00.013Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -62,7 +62,7 @@ namespace DAL
                 conn.Open();
             }
 
-            string sql = "Select *From NHANVIEN Where TenDN = @tenDN";
+            string sql = "Select * From NHANVIEN Where TenDN = @tenDN";
             SqlCommand cmd = new SqlCommand(sql, conn);
             cmd.Parameters.AddWithValue("@tenDN", tenDN);
             

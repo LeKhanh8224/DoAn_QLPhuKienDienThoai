@@ -63,12 +63,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formDangKy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formDangKy.Designer.cs">
-      <DependentUpon>formDangKy.cs</DependentUpon>
-    </Compile>
     <Compile Include="formDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,9 +119,6 @@
     <Compile Include="UserControls\UC_TrangChu.Designer.cs">
       <DependentUpon>UC_TrangChu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="formDangKy.resx">
-      <DependentUpon>formDangKy.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="formDangNhap.resx">
       <DependentUpon>formDangNhap.cs</DependentUpon>
     </EmbeddedResource>

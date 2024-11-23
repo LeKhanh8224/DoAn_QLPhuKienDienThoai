@@ -45,45 +45,62 @@ namespace GUI
         {
             string tenDN = txtTenDN.Text.Trim();
             string matkhau = txtMatKhau.Text.Trim();
-            DTO_TaiKhoan taiKhoan = taiKhoanBLL.Login(tenDN, matkhau);
 
-            if (txtTenDN.Text.Length == 0 || txtMatKhau.Text.Length == 0)
+            if (string.IsNullOrWhiteSpace(tenDN) || string.IsNullOrWhiteSpace(matkhau))
             {
                 MessageBox.Show("Không được bỏ trống nội dung!", "Cảnh báo");
+                return;
             }
-            else if (taiKhoan != null) //Nếu taiKhoan có thông tin
+
+            DTO_TaiKhoan taiKhoan;
+            try
             {
-                if (taiKhoan.MAVT.Trim().Equals("admin")) //Nếu vai trò tài khoản là admin
+                taiKhoan = taiKhoanBLL.Login(tenDN, matkhau);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi kết nối cơ sở dữ liệu: {ex.Message}", "Thông báo lỗi");
+                return;
+            }
+
+            if (taiKhoan != null)
+            {
+                if (taiKhoan.MAVT.Trim().Equals("admin"))
                 {
                     this.Hide();
                     formMain formMain = new formMain(taiKhoan.MAVT, tenDN);
                     formMain.ShowDialog();
                 }
-                else if (taiKhoan.MAVT.Trim().Equals("VT000") == false) //Nếu vai trò tài khoản không phải khách hàng
+                else
                 {
-                    DTO_NhanVien nhanvien = nhanVienBLL.layTheoTenDN(tenDN);
+                    DTO_NhanVien nhanvien;
+                    try
+                    {
+                        nhanvien = nhanVienBLL.layTheoTenDN(tenDN);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Lỗi tải thông tin nhân viên: {ex.Message}", "Thông báo lỗi");
+                        return;
+                    }
+
                     if (nhanvien.TRANGTHAI.Equals("Đã nghỉ"))
                     {
                         MessageBox.Show("Nhân viên đã nghỉ không thể đăng nhập!", "Thông báo");
                     }
-                    else //Nếu nhân viên này vẫn còn làm
+                    else
                     {
                         this.Hide();
                         formMain formMain = new formMain(taiKhoan.MAVT, tenDN);
                         formMain.ShowDialog();
                     }
                 }
-                else //Nếu vai trò tài khoản là khách hàng
-                {
-                    DTO_KhachHang khachhang = khachhangBLL.layTheoTenDN(tenDN);
-                    this.Hide();
-                    formMain formMain = new formMain(taiKhoan.MAVT, tenDN);
-                    formMain.ShowDialog();
-                }
             }
-            else //Nếu tài khoản không có thông tin
+            else
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng", "Thông báo");
+                txtMatKhau.Clear();
+                txtMatKhau.Focus();
             }
         }
 
@@ -92,21 +109,6 @@ namespace GUI
             txtTenDN.Focus();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            string vaiTro = "Khách Vãng Lai";
-            string tenDN = "Không có tài khoản";
-            this.Hide();
-            formMain formMain = new formMain(vaiTro, tenDN);
-            formMain.ShowDialog();
-        }
-
-        private void btn_dangky_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            formDangKy formDangKy = new formDangKy();
-            formDangKy.ShowDialog();
-        }
 
         private void txtTenDN_TextChanged(object sender, EventArgs e)
         {

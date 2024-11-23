@@ -33,8 +33,6 @@ namespace DAL
                         TENKH = read[1].ToString(),
                         GIOITINH = read[2].ToString(),
                         SDT = read[3].ToString(),
-                        NGAYSINH = read.GetDateTime(4),
-                        TENDN = read[5].ToString()
                     };
 
                     lst_khachHang.Add(khachHang);
@@ -75,8 +73,6 @@ namespace DAL
                         TENKH = read[1].ToString(),
                         GIOITINH = read[2].ToString(),
                         SDT = read[3].ToString(),
-                        NGAYSINH = read.GetDateTime(4),
-                        TENDN = read[5].ToString()
                     };
                 }
             }

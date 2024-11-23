@@ -12,19 +12,15 @@ namespace DTO
         public string TENKH { get; set; }
         public string GIOITINH { get; set; }
         public string SDT { get; set; }
-        public DateTime NGAYSINH { get; set; }
-        public string TENDN { get; set; }
 
         public DTO_KhachHang() { }
 
-        public DTO_KhachHang(string mAKH, string tENKH, string gIOITINH, string sDT, DateTime nGAYSINH, string tENDN)
+        public DTO_KhachHang(string mAKH, string tENKH, string gIOITINH, string sDT)
         {
             MAKH = mAKH;
             TENKH = tENKH;
             GIOITINH = gIOITINH;
             SDT = sDT;
-            NGAYSINH = nGAYSINH;
-            TENDN = tENDN;
         }
     }
 }
